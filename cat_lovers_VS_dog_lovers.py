@@ -1,6 +1,20 @@
 from Pyfhel import Pyfhel
 import numpy as np
 import emoji
+import pyfiglet
+from termcolor import colored
+from colorama import Style, Fore
+
+
+title_name = "Cat <3 VS Dog <3"
+title = pyfiglet.figlet_format(title_name,font="univers",width=200)
+print(Style.BRIGHT, Fore.GREEN, title)
+
+#f = pyfiglet.Figlet(font="univers",width=200)
+#print(colored(f.renderText('Cat <3 VS Dog <3'), "green"))
+#print(colored(f.renderText('Cat <3 VS Dog <3'), "red"))
+#print(colored(f.renderText('Cat <3 VS Dog <3'), "blue"))
+
 
 # initialize pyfhel object
 fhel = Pyfhel()
@@ -38,8 +52,8 @@ def display_results():
     cat = "\U0001F63B"
     heart = "\U00002764"
     dog = "\U0001F415"
-    print(f"CAT Lovers{cat}{heart}: {fhel.decryptInt(vote_count_1)[0]}")
-    print(f"DOG Lovers{dog}{heart}: {fhel.decryptInt(vote_count_2)[0]}")
+    print(f"CAT Lovers{cat} {heart}: {fhel.decryptInt(vote_count_1)[0]}")
+    print(f"DOG Lovers{dog} {heart}: {fhel.decryptInt(vote_count_2)[0]}")
 
 
 def get_input():
@@ -62,4 +76,3 @@ for x in range(0,n):
 #cast_vote(2)
 
 display_results()
-

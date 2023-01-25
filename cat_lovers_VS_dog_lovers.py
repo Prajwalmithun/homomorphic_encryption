@@ -1,3 +1,8 @@
+"""Foobar.py: Description of what foobar does."""
+
+__author__         = "Prajwal T"
+
+
 from Pyfhel import Pyfhel
 import numpy as np
 import emoji

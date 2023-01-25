@@ -1,3 +1,10 @@
+altgraph==0.17.3
+colorama==0.4.6
 emoji==2.2.0
 numpy==1.21.0
 Pyfhel==3.3.2
+pyfiglet==0.8.post1
+pyinstaller==5.7.0
+pyinstaller-hooks-contrib==2022.15
+termcolor==2.2.0
+urllib3==1.26.14

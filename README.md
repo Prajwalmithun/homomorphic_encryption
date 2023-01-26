@@ -4,6 +4,9 @@ This a basic utility to simulate voting system integrated with Fully Homomorphic
 # DEMO
 ![Project working](images/cats_dogs_homomorphic_encryption.gif)
 
+This is how the votes are being stored in memory. Output is in byte format
+![](images/encrypted_vote_in_byte_format.png)
+
 # INSTALLATION
 NOTE: This has been tested on `debian 11 (Bullseye)`
 

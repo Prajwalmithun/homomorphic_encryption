@@ -26,7 +26,7 @@ Install `virtualenv` on debian using this command `sudo apt install virtualenv p
 Install `pip` if not installed using this command `sudo apt install python3-pip`
 
 ```
-# pip3 freeze -r requirements.txt
+# pip3 install -r requirements.txt
 ```
 
 4. Execute the program

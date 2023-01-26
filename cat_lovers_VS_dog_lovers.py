@@ -51,6 +51,11 @@ def cast_vote(candidate_number):
         vote_count_1 = fhel.add(vote_count_1, fhel.encryptInt(integer1))
         end_time = time.time()
         
+        print(type(vote_count_1))
+        # Pyfhel.PyCtxt.PyCtxt
+        in_bytes = vote_count_1.__bytes__()
+        print(type(in_bytes))
+        #print(in_bytes.decode('UTF-16'))
         logging.info(vote_count_1)
         elapsed_time_1.append((end_time - start_time))
         elapsed_time_now = end_time - start_time

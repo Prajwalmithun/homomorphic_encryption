@@ -32,8 +32,15 @@ Install `pip` if not installed using this command `sudo apt install python3-pip`
 # pip3 install -r requirements.txt
 ```
 
-4. Execute the program
+4. Execute the homomorphic program
 
 ```
 # python3 cat_lovers_VS_dog_lovers.py
+```
+
+5. Another way to execute the program is 
+
+```
+# sudo chmod +x run.sh
+# ./run.sh
 ```
